@@ -28,7 +28,8 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
     android.hardware.health@2.0-service \
-    libhealthd.$(PRODUCT_PLATFORM)
+    libhealthd.$(PRODUCT_PLATFORM) \
+    libhealthd
 
 # Boot Control HAL
 PRODUCT_PACKAGES += \
